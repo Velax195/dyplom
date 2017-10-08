@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Testowa</string>
+    <string name="placeholder">placeholder</string>
     <string name="input_numbers_hint">Number</string>
-    <string name="input_numbers_label">Please enter number 0–100</string>
+    <string name="input_numbers_label">Please enter number %1$d–%2$d</string>
     <string name="go_to_second_screen">Go to second screen</string>
+    <string name="value_label">Current value is: </string>
+    <string name="btn_increment">Increment</string>
+    <string name="btn_decrement">Decrement</string>
+    <string name="single_digit">%1$d</string>
 </resources>
