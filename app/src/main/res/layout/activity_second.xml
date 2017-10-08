@@ -36,8 +36,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_increment"
-            android:onClick="btIncrement"/>
+            android:text="@string/btn_increment" />
 
         <Button
             android:id="@+id/btValDecrement"
