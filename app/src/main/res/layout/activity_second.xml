@@ -24,23 +24,27 @@
 
     <LinearLayout
         android:id="@+id/llButtonsContainer"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tvSecondLabel"
-        android:layout_centerHorizontal="true">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvSecondLabel"
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/btValIncrement"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_increment"/>
+            android:text="@string/btn_increment"
+            android:onClick="btIncrement"/>
+
         <Button
             android:id="@+id/btValDecrement"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_decrement"/>
+            android:text="@string/btn_decrement" />
     </LinearLayout>
 
 </RelativeLayout>
